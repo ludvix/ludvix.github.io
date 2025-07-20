@@ -1,0 +1,57 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+    color: #000080;
+}
+
+header {
+    background: linear-gradient(to right, #000099, #0099ff);
+    color: #ffffff;
+    padding: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    border-bottom: 4px solid #ffcc00;
+}
+
+nav a {
+    color: #ffff66;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #000099;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+}
+
+section {
+    padding: 2em;
+    border-bottom: 2px dashed #cccccc;
+}
+
+#about {
+    background: linear-gradient(to bottom, #ffeb3b, #fff176);
+}
+
+#projects {
+    background: linear-gradient(to bottom, #ff9800, #ffc107);
+}
+
+#contact {
+    background: linear-gradient(to bottom, #00bcd4, #4dd0e1);
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 1em;
+    background-color: #000099;
+    color: #ffffff;
+    border-top: 4px solid #ffcc00;
+}

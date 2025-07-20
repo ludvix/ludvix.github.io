@@ -51,7 +51,15 @@ footer {
     text-align: center;
     font-size: 14px;
     padding: 1em;
-    background-color: #000099;
-    color: #ffffff;
-    border-top: 4px solid #ffcc00;
+    background: linear-gradient(90deg, #004080, #007acc);
+    color: #ffe066; 
+}
+
+footer a {
+    color: #ffdd57; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
